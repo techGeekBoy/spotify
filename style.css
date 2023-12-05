@@ -157,7 +157,6 @@ h2 {
 .f1 {
   display: flex;
   align-items: center;
-
   gap: 10px;
 }
 .f1 > div > h5 {
@@ -170,7 +169,7 @@ h2 {
   padding: 0px;
   margin: 0px;
 }
-#f1 > p {
+.f1 > p {
   color: #b3b3b3;
   font-family: DM Sans;
   font-size: 15px;
@@ -183,7 +182,7 @@ h2 {
 
 #ficons {
   display: flex;
-  justify-content: between;
+  justify-content: space-between;
 }
 #sound {
   display: flex;
